@@ -9,8 +9,8 @@ public class Roverspraak {
 		
 		
 		
-		System.out.println("Velg 1 for Konvertere til Røver!");
-		System.out.println("Velg 2 for å Konvertere fra Røver!");
+		System.out.println("Velg 1 for Konvertere til RÃ¸ver!");
+		System.out.println("Velg 2 for Ã¥ Konvertere fra RÃ¸ver!");
 		int chosen = input.nextInt();
 		String fdas = input.nextLine();
 		
@@ -66,21 +66,9 @@ public class Roverspraak {
 		return returnString;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	//Thanks to Vineet Reynolds from Stackoverflow
-	static String getStringRepresentation(ArrayList<Character> list)
-	{    
+	static String getStringRepresentation(ArrayList<Character> list){    
 	    StringBuilder builder = new StringBuilder(list.size());
-	    for(Character ch: list)
-	    {
+	    for(Character ch: list){
 	        builder.append(ch);
 	    }
 	    return builder.toString();
